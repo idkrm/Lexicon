@@ -127,7 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="sae.cpp" />
+    <ClCompile Include="commandesTEPRC.cpp" />
+    <ClCompile Include="finDeJeu.cpp" />
+    <ClCompile Include="initialisation.cpp" />
+    <ClCompile Include="lexicon.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="deck.h" />
+    <ClInclude Include="declarerFonctions.h" />
+    <ClInclude Include="player.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
